@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5DC4921D1526FD4B009A922D /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC4921B1526FD4B009A922D /* DetailViewController.m */; };
+		5DC4921E1526FD4B009A922D /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DC4921C1526FD4B009A922D /* DetailViewController.xib */; };
+		5DD54B9C1525F0F600674FE3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DD54B9B1525F0F600674FE3 /* UIKit.framework */; };
+		5DD54B9E1525F0F600674FE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DD54B9D1525F0F600674FE3 /* Foundation.framework */; };
+		5DD54BA01525F0F600674FE3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DD54B9F1525F0F600674FE3 /* CoreGraphics.framework */; };
+		5DD54BA61525F0F600674FE3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5DD54BA41525F0F600674FE3 /* InfoPlist.strings */; };
+		5DD54BA81525F0F600674FE3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD54BA71525F0F600674FE3 /* main.m */; };
+		5DD54BAC1525F0F600674FE3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD54BAB1525F0F600674FE3 /* AppDelegate.m */; };
+		5DD54BBA1526024300674FE3 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD54BB81526024300674FE3 /* HomeViewController.m */; };
+		5DD54BBB1526024300674FE3 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DD54BB91526024300674FE3 /* HomeViewController.xib */; };
+		5DD54BCB152610A700674FE3 /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD54BC8152610A600674FE3 /* XMLReader.m */; };
+		5DD54BCC152610A700674FE3 /* ModalController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD54BC9152610A600674FE3 /* ModalController.m */; };
+		5DD54BD01526117800674FE3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DD54BCF1526117800674FE3 /* QuartzCore.framework */; };
+		5DD54BE41526464200674FE3 /* CatagoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD54BE21526464100674FE3 /* CatagoryViewController.m */; };
+		5DD54BE51526464200674FE3 /* CatagoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DD54BE31526464200674FE3 /* CatagoryViewController.xib */; };
+		5DD54BE9152646A600674FE3 /* CatagoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD54BE8152646A600674FE3 /* CatagoryView.m */; };
+		5DD54BED152646E300674FE3 /* CatagoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DD54BEC152646E300674FE3 /* CatagoryView.xib */; };
+		5DD54C1E1526636B00674FE3 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD54C1D1526636B00674FE3 /* MBProgressHUD.m */; };
+		5DD54C301526657A00674FE3 /* EGOCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD54C271526657400674FE3 /* EGOCache.m */; };
+		5DD54C311526657A00674FE3 /* EGOImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD54C2A1526657500674FE3 /* EGOImageLoader.m */; };
+		5DD54C321526657A00674FE3 /* EGOImageLoadConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD54C2C1526657500674FE3 /* EGOImageLoadConnection.m */; };
+		5DD54C331526657A00674FE3 /* EGOImageButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD54C2D1526657500674FE3 /* EGOImageButton.m */; };
+		5DD54C341526657A00674FE3 /* EGOImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD54C2F1526657500674FE3 /* EGOImageView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5DC4921A1526FD4B009A922D /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = /Users/preetdhillon/Documents/Ex/viaprive/DetailViewController.h; sourceTree = "<absolute>"; };
+		5DC4921B1526FD4B009A922D /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = /Users/preetdhillon/Documents/Ex/viaprive/DetailViewController.m; sourceTree = "<absolute>"; };
+		5DC4921C1526FD4B009A922D /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DetailViewController.xib; path = /Users/preetdhillon/Documents/Ex/viaprive/DetailViewController.xib; sourceTree = "<absolute>"; };
+		5DD54B971525F0F600674FE3 /* viaprive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = viaprive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DD54B9B1525F0F600674FE3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5DD54B9D1525F0F600674FE3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5DD54B9F1525F0F600674FE3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5DD54BA31525F0F600674FE3 /* viaprive-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "viaprive-Info.plist"; sourceTree = "<group>"; };
+		5DD54BA51525F0F600674FE3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5DD54BA71525F0F600674FE3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5DD54BA91525F0F600674FE3 /* viaprive-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "viaprive-Prefix.pch"; sourceTree = "<group>"; };
+		5DD54BAA1525F0F600674FE3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5DD54BAB1525F0F600674FE3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5DD54BB21525F12C00674FE3 /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constant.h; path = viaprive/Constant.h; sourceTree = "<group>"; };
+		5DD54BB71526024300674FE3 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		5DD54BB81526024300674FE3 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		5DD54BB91526024300674FE3 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		5DD54BC7152610A600674FE3 /* XMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLReader.h; sourceTree = "<group>"; };
+		5DD54BC8152610A600674FE3 /* XMLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLReader.m; sourceTree = "<group>"; };
+		5DD54BC9152610A600674FE3 /* ModalController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalController.m; sourceTree = "<group>"; };
+		5DD54BCA152610A700674FE3 /* ModalController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalController.h; sourceTree = "<group>"; };
+		5DD54BCF1526117800674FE3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		5DD54BE11526464100674FE3 /* CatagoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatagoryViewController.h; sourceTree = "<group>"; };
+		5DD54BE21526464100674FE3 /* CatagoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatagoryViewController.m; sourceTree = "<group>"; };
+		5DD54BE31526464200674FE3 /* CatagoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CatagoryViewController.xib; sourceTree = "<group>"; };
+		5DD54BE7152646A600674FE3 /* CatagoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatagoryView.h; sourceTree = "<group>"; };
+		5DD54BE8152646A600674FE3 /* CatagoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatagoryView.m; sourceTree = "<group>"; };
+		5DD54BEC152646E300674FE3 /* CatagoryView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CatagoryView.xib; sourceTree = "<group>"; };
+		5DD54C1C1526636B00674FE3 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		5DD54C1D1526636B00674FE3 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		5DD54C261526657400674FE3 /* EGOCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOCache.h; sourceTree = "<group>"; };
+		5DD54C271526657400674FE3 /* EGOCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOCache.m; sourceTree = "<group>"; };
+		5DD54C281526657400674FE3 /* EGOImageButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOImageButton.h; sourceTree = "<group>"; };
+		5DD54C291526657400674FE3 /* EGOImageLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOImageLoader.h; sourceTree = "<group>"; };
+		5DD54C2A1526657500674FE3 /* EGOImageLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOImageLoader.m; sourceTree = "<group>"; };
+		5DD54C2B1526657500674FE3 /* EGOImageLoadConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOImageLoadConnection.h; sourceTree = "<group>"; };
+		5DD54C2C1526657500674FE3 /* EGOImageLoadConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOImageLoadConnection.m; sourceTree = "<group>"; };
+		5DD54C2D1526657500674FE3 /* EGOImageButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOImageButton.m; sourceTree = "<group>"; };
+		5DD54C2E1526657500674FE3 /* EGOImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOImageView.h; sourceTree = "<group>"; };
+		5DD54C2F1526657500674FE3 /* EGOImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOImageView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DD54B941525F0F600674FE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DD54BD01526117800674FE3 /* QuartzCore.framework in Frameworks */,
+				5DD54B9C1525F0F600674FE3 /* UIKit.framework in Frameworks */,
+				5DD54B9E1525F0F600674FE3 /* Foundation.framework in Frameworks */,
+				5DD54BA01525F0F600674FE3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DC492201526FD54009A922D /* DetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5DC4921A1526FD4B009A922D /* DetailViewController.h */,
+				5DC4921B1526FD4B009A922D /* DetailViewController.m */,
+				5DC4921C1526FD4B009A922D /* DetailViewController.xib */,
+			);
+			name = DetailViewController;
+			sourceTree = "<group>";
+		};
+		5DD54B8C1525F0F600674FE3 = {
+			isa = PBXGroup;
+			children = (
+				5DD54BEB152646BB00674FE3 /* ViewClass */,
+				5DD54BBD1526025400674FE3 /* ControllerClass */,
+				5DD54BB61525F14B00674FE3 /* ModalClass */,
+				5DD54BA11525F0F600674FE3 /* viaprive */,
+				5DD54B9A1525F0F600674FE3 /* Frameworks */,
+				5DD54B981525F0F600674FE3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5DD54B981525F0F600674FE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DD54B971525F0F600674FE3 /* viaprive.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DD54B9A1525F0F600674FE3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5DD54BCF1526117800674FE3 /* QuartzCore.framework */,
+				5DD54B9B1525F0F600674FE3 /* UIKit.framework */,
+				5DD54B9D1525F0F600674FE3 /* Foundation.framework */,
+				5DD54B9F1525F0F600674FE3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5DD54BA11525F0F600674FE3 /* viaprive */ = {
+			isa = PBXGroup;
+			children = (
+				5DD54BAA1525F0F600674FE3 /* AppDelegate.h */,
+				5DD54BAB1525F0F600674FE3 /* AppDelegate.m */,
+				5DD54BA21525F0F600674FE3 /* Supporting Files */,
+			);
+			path = viaprive;
+			sourceTree = "<group>";
+		};
+		5DD54BA21525F0F600674FE3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5DD54BA31525F0F600674FE3 /* viaprive-Info.plist */,
+				5DD54BA41525F0F600674FE3 /* InfoPlist.strings */,
+				5DD54BA71525F0F600674FE3 /* main.m */,
+				5DD54BA91525F0F600674FE3 /* viaprive-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5DD54BB51525F13400674FE3 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				5DD54BB21525F12C00674FE3 /* Constant.h */,
+			);
+			name = Constant;
+			sourceTree = "<group>";
+		};
+		5DD54BB61525F14B00674FE3 /* ModalClass */ = {
+			isa = PBXGroup;
+			children = (
+				5DD54BCD152610B700674FE3 /* XMLReader */,
+				5DD54BCE152610C200674FE3 /* ModalController */,
+				5DD54BB51525F13400674FE3 /* Constant */,
+			);
+			name = ModalClass;
+			sourceTree = "<group>";
+		};
+		5DD54BBC1526024A00674FE3 /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5DD54BB71526024300674FE3 /* HomeViewController.h */,
+				5DD54BB81526024300674FE3 /* HomeViewController.m */,
+				5DD54BB91526024300674FE3 /* HomeViewController.xib */,
+			);
+			name = HomeViewController;
+			sourceTree = "<group>";
+		};
+		5DD54BBD1526025400674FE3 /* ControllerClass */ = {
+			isa = PBXGroup;
+			children = (
+				5DC492201526FD54009A922D /* DetailViewController */,
+				5DD54BE61526464F00674FE3 /* CatagoryViewController */,
+				5DD54BBC1526024A00674FE3 /* HomeViewController */,
+			);
+			name = ControllerClass;
+			sourceTree = "<group>";
+		};
+		5DD54BCD152610B700674FE3 /* XMLReader */ = {
+			isa = PBXGroup;
+			children = (
+				5DD54BC7152610A600674FE3 /* XMLReader.h */,
+				5DD54BC8152610A600674FE3 /* XMLReader.m */,
+			);
+			name = XMLReader;
+			sourceTree = "<group>";
+		};
+		5DD54BCE152610C200674FE3 /* ModalController */ = {
+			isa = PBXGroup;
+			children = (
+				5DD54BC9152610A600674FE3 /* ModalController.m */,
+				5DD54BCA152610A700674FE3 /* ModalController.h */,
+			);
+			name = ModalController;
+			sourceTree = "<group>";
+		};
+		5DD54BE61526464F00674FE3 /* CatagoryViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5DD54BE11526464100674FE3 /* CatagoryViewController.h */,
+				5DD54BE21526464100674FE3 /* CatagoryViewController.m */,
+				5DD54BE31526464200674FE3 /* CatagoryViewController.xib */,
+			);
+			name = CatagoryViewController;
+			sourceTree = "<group>";
+		};
+		5DD54BEA152646AF00674FE3 /* CatagoryView */ = {
+			isa = PBXGroup;
+			children = (
+				5DD54BE7152646A600674FE3 /* CatagoryView.h */,
+				5DD54BEC152646E300674FE3 /* CatagoryView.xib */,
+				5DD54BE8152646A600674FE3 /* CatagoryView.m */,
+			);
+			name = CatagoryView;
+			sourceTree = "<group>";
+		};
+		5DD54BEB152646BB00674FE3 /* ViewClass */ = {
+			isa = PBXGroup;
+			children = (
+				5DD54C261526657400674FE3 /* EGOCache.h */,
+				5DD54C271526657400674FE3 /* EGOCache.m */,
+				5DD54C281526657400674FE3 /* EGOImageButton.h */,
+				5DD54C291526657400674FE3 /* EGOImageLoader.h */,
+				5DD54C2A1526657500674FE3 /* EGOImageLoader.m */,
+				5DD54C2B1526657500674FE3 /* EGOImageLoadConnection.h */,
+				5DD54C2C1526657500674FE3 /* EGOImageLoadConnection.m */,
+				5DD54C2D1526657500674FE3 /* EGOImageButton.m */,
+				5DD54C2E1526657500674FE3 /* EGOImageView.h */,
+				5DD54C2F1526657500674FE3 /* EGOImageView.m */,
+				5DD54C1F1526637100674FE3 /* MBProgressHUD */,
+				5DD54BEA152646AF00674FE3 /* CatagoryView */,
+			);
+			name = ViewClass;
+			sourceTree = "<group>";
+		};
+		5DD54C1F1526637100674FE3 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				5DD54C1C1526636B00674FE3 /* MBProgressHUD.h */,
+				5DD54C1D1526636B00674FE3 /* MBProgressHUD.m */,
+			);
+			name = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DD54B961525F0F600674FE3 /* viaprive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DD54BAF1525F0F600674FE3 /* Build configuration list for PBXNativeTarget "viaprive" */;
+			buildPhases = (
+				5DD54B931525F0F600674FE3 /* Sources */,
+				5DD54B941525F0F600674FE3 /* Frameworks */,
+				5DD54B951525F0F600674FE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = viaprive;
+			productName = viaprive;
+			productReference = 5DD54B971525F0F600674FE3 /* viaprive.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DD54B8E1525F0F600674FE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = dhillon;
+			};
+			buildConfigurationList = 5DD54B911525F0F600674FE3 /* Build configuration list for PBXProject "viaprive" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5DD54B8C1525F0F600674FE3;
+			productRefGroup = 5DD54B981525F0F600674FE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DD54B961525F0F600674FE3 /* viaprive */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DD54B951525F0F600674FE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DD54BA61525F0F600674FE3 /* InfoPlist.strings in Resources */,
+				5DD54BBB1526024300674FE3 /* HomeViewController.xib in Resources */,
+				5DD54BE51526464200674FE3 /* CatagoryViewController.xib in Resources */,
+				5DD54BED152646E300674FE3 /* CatagoryView.xib in Resources */,
+				5DC4921E1526FD4B009A922D /* DetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DD54B931525F0F600674FE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DD54BA81525F0F600674FE3 /* main.m in Sources */,
+				5DD54BAC1525F0F600674FE3 /* AppDelegate.m in Sources */,
+				5DD54BBA1526024300674FE3 /* HomeViewController.m in Sources */,
+				5DD54BCB152610A700674FE3 /* XMLReader.m in Sources */,
+				5DD54BCC152610A700674FE3 /* ModalController.m in Sources */,
+				5DD54BE41526464200674FE3 /* CatagoryViewController.m in Sources */,
+				5DD54BE9152646A600674FE3 /* CatagoryView.m in Sources */,
+				5DD54C1E1526636B00674FE3 /* MBProgressHUD.m in Sources */,
+				5DD54C301526657A00674FE3 /* EGOCache.m in Sources */,
+				5DD54C311526657A00674FE3 /* EGOImageLoader.m in Sources */,
+				5DD54C321526657A00674FE3 /* EGOImageLoadConnection.m in Sources */,
+				5DD54C331526657A00674FE3 /* EGOImageButton.m in Sources */,
+				5DD54C341526657A00674FE3 /* EGOImageView.m in Sources */,
+				5DC4921D1526FD4B009A922D /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5DD54BA41525F0F600674FE3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DD54BA51525F0F600674FE3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5DD54BAD1525F0F600674FE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		5DD54BAE1525F0F600674FE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DD54BB01525F0F600674FE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "viaprive/viaprive-Prefix.pch";
+				INFOPLIST_FILE = "viaprive/viaprive-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5DD54BB11525F0F600674FE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "viaprive/viaprive-Prefix.pch";
+				INFOPLIST_FILE = "viaprive/viaprive-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DD54B911525F0F600674FE3 /* Build configuration list for PBXProject "viaprive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DD54BAD1525F0F600674FE3 /* Debug */,
+				5DD54BAE1525F0F600674FE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DD54BAF1525F0F600674FE3 /* Build configuration list for PBXNativeTarget "viaprive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DD54BB01525F0F600674FE3 /* Debug */,
+				5DD54BB11525F0F600674FE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5DD54B8E1525F0F600674FE3 /* Project object */;
+}
